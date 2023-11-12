@@ -1,6 +1,6 @@
-import { AiOutlineHome } from "react-icons/ai"
-import {RiCommunityLine} from "react-icons/ri"
-import {FaHandsWash} from "react-icons/fa"
+// import { AiOutlineHome } from "react-icons/ai"
+// import {RiCommunityLine} from "react-icons/ri"
+// import {FaHandsWash} from "react-icons/fa"
 
 const Services = () => {
   return (
@@ -49,7 +49,7 @@ const Services = () => {
         <div className='flex justify-around'>
           <div className='h-[200px] w-[300px] shadow-md p-5'>
             <div className="text-[50px]">
-                <AiOutlineHome />
+                {/* <AiOutlineHome /> */}
               </div>
               <h3>House Cleaning</h3>
               <p>
