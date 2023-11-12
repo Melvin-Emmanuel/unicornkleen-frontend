@@ -1,6 +1,7 @@
 // 
 
 import logo from "../../assets/images/IMG-20231011-WA0007-1.jpg"
+import {Link} from "react-router-dom"
 // import {GiHamburgerMenu} from "react-icons/gi"
 
 const Header = () => {
@@ -14,9 +15,9 @@ const Header = () => {
         />
       </div>
       <nav className='text-[#1239AC] flex justify-between text-center p-[12px] gap-[30px] sm:hidden md:hidden cursor-pointer'>
-        <nav className=' text-[16px]'> Home</nav>
+        <Link to={"/"} className=' text-[16px]'> Home</Link>
         <nav className=' text-[16px]'> About</nav>
-        <nav className=' text-[16px]'> Service</nav>
+        <Link to={"/Services"} className=' text-[16px]'> Service</Link>
         <nav className=' text-[16px]'> Blog</nav>
         <nav className=' text-[16px]'> Service</nav>
       </nav>
