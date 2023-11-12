@@ -8,7 +8,7 @@ const Index = createBrowserRouter([
 //    
    
     {
-        path: "Homepage",
+        path: "/",
         index:true,
         element:<Landing/>
     }
