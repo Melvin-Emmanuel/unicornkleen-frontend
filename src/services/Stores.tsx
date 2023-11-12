@@ -1,6 +1,6 @@
-import { configureStore } from "@reduxjs/toolkit"
-import myreducer from "./Reducers"
+// import { configureStore } from "@reduxjs/toolkit"
+// import myreducer from "./Reducers"
 
-export const Store = configureStore({
-    reducer:myreducer
-})
+// export const Store = configureStore({
+//     reducer:myreducer
+// })
