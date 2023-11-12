@@ -1,0 +1,19 @@
+[
+    {
+      "title": "Apple Watch Series 7",
+      "image": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series7_hero_09142021_big.jpg.large_2x.jpg",
+      "price":100,
+      "id":1
+    },
+    {
+      "title": "The  Best Sony Cameras ",
+      "image": "https://i.rtings.com/assets/pages/yUWVFua9/best-sony-medium.jpg",
+      "price": 300,
+      "id":2
+    },
+    {
+      "title": "EDE PLANTAIN CHIPS RIPE 70G",
+      "image": "https://cdn.manoapp.com/variants/87ukacwxi8ac2uy59mpd2hxejnq1/591fe3429fa59bfe054d222d66110883129e394e673fe4d32f213228e05dd59e",
+      "price": 400,
+      "id":3   }
+]
