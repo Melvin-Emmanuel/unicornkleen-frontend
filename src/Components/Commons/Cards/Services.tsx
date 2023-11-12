@@ -16,7 +16,7 @@ const Services = () => {
         <div className='flex justify-around'>
           <div className='h-200px] w-[300px] shadow-md p-5'>
             <div className="text-[50px]">
-              <AiOutlineHome />
+              {/* <AiOutlineHome /> */}
             </div>
             <h3>House Cleaning</h3>
             <p>
@@ -26,7 +26,7 @@ const Services = () => {
 
           <div className='h-[200px] w-[300px] shadow-md p-5'>
             <div  className="text-[50px]">
-              <RiCommunityLine />
+              {/* <RiCommunityLine /> */}
             </div>
             <h3>Office Cleaning</h3>
             <p>
@@ -36,7 +36,7 @@ const Services = () => {
 
           <div className='h-[200px] w-[300px] shadow-md p-5'>
             <div  className="text-[50px]">
-                <FaHandsWash/>
+                {/* <FaHandsWash/> */}
               </div>
               <h3>Residential Cleaning</h3>
             <p>
@@ -59,7 +59,7 @@ const Services = () => {
 
           <div className='h-[200px] w-[300px] shadow-md p-5'>
             <div className="text-[50px]">
-                <AiOutlineHome />
+                {/* <AiOutlineHome /> */}
               </div>
               <h3>House Cleaning</h3>
               <p>
@@ -69,7 +69,7 @@ const Services = () => {
 
           <div className='h-[200px] w-[300px] shadow-md p-5'>
             <div className="text-[50px]">
-                <AiOutlineHome />
+                {/* <AiOutlineHome /> */}
               </div>
               <h3>House Cleaning</h3>
               <p>
