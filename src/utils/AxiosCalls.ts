@@ -50,6 +50,7 @@ interface iUser {
 interface loginUser {
   Email: string;
   Password: string;
+  UserName:string
 }
 
 export const createUser = async (data: iUser) => {
