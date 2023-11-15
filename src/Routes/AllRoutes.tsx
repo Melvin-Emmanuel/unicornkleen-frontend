@@ -3,6 +3,10 @@ import { createBrowserRouter } from "react-router-dom"
 // import ServicesPages from "../Pages/ServicesPages"
 import Landing from "../Pages/Landingpage/Landing"
 import Service from "../Pages/service"
+import Blogpost from "../Pages/Blogpost"
+import Login from "../Pages/Auth/Logins"
+import SignUp from "../Pages/Auth/SignUp"
+import About from "../Pages/About"
 
 
 const Index = createBrowserRouter([
@@ -16,6 +20,22 @@ const Index = createBrowserRouter([
     {
         path: "/Services",
         element:<Service/>
+    },
+    {
+        path: "/Blog",
+        element:<Blogpost/>
+    },
+    {
+        path: "/Login",
+        element:<Login/>
+    },
+    {
+        path: "/Signup",
+        element:<SignUp/>
+    },
+    {
+        path: "/About",
+        element:<About/>
     }
 ])
 
