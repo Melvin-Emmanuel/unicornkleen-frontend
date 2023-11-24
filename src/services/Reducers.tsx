@@ -49,3 +49,43 @@
 // export const {addToCart,removeFromCart} = Reducers.actions
 
 // export default Reducers.reducer
+import { createSlice } from "@reduxjs/toolkit"
+
+
+const initialState = {
+    user: false,
+    booking: false,
+    Notification: false,
+    Apps: false,
+    nav:true
+
+}
+
+const Reducers:any = createSlice({
+  name: "unicorn Admin",
+  initialState,
+    reducers: {
+        changeUser: (state) => {
+            state.user=!state.user
+        }
+        ,
+        changebooking: (state) => {
+            state.booking=!state.booking
+        },
+        showNotification: (state) => {
+            state.Notification=!state.Notification
+        },
+        showApps: (state) => {
+            state.Apps=!state.Apps
+        },
+        changeNav: (state) => {
+            state.nav=!state.nav
+        }
+
+  }
+});
+
+export const { changeUser, changebooking, showNotification, showApps, changeNav } =
+  Reducers.actions;
+
+export default Reducers.reducer

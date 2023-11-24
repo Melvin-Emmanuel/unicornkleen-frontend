@@ -7,37 +7,58 @@ import Blogpost from "../Pages/Blogpost"
 import Login from "../Pages/Auth/Logins"
 import SignUp from "../Pages/Auth/SignUp"
 import About from "../Pages/About"
+import UserAppointments from "../Components/Commons/UserAppointments"
+import Admindash from "../Pages/Admindash"
+import AddProducts from "../Pages/AddProducts"
+import AddBlog from "../Pages/AddBlog"
+import Logout from "../Pages/Logout"
 
 
 const Index = createBrowserRouter([
-//    
-   
-    {
-        path: "/",
-        index:true,
-        element:<Landing/>
+  //
+
+  {
+    path: "/",
+    index: true,
+    element: <Landing />,
+  },
+  {
+    path: "/Services",
+    element: <Service />,
+  },
+  {
+    path: "/Blog",
+    element: <Blogpost />,
+  },
+  {
+    path: "/signin",
+    element: <Login />,
+  },
+  {
+    path: "/Signup",
+    element: <SignUp />,
+  },
+  {
+    path: "/About",
+    element: <About />,
+  },
+  {
+    path: "/user",
+    element: <UserAppointments />,
+  },
+  {
+    path: "/Admin",
+    element: <Admindash />,
+  },
+  {
+    path: "/create-Blog",
+    element: <AddBlog />,
     },
     {
-        path: "/Services",
-        element:<Service/>
-    },
-    {
-        path: "/Blog",
-        element:<Blogpost/>
-    },
-    {
-        path: "/Login",
-        element:<Login/>
-    },
-    {
-        path: "/Signup",
-        element:<SignUp/>
-    },
-    {
-        path: "/About",
-        element:<About/>
-    }
-])
+        path: "/Logout",
+        element:<Logout/>
+  }
+]);
 
 
 export default Index

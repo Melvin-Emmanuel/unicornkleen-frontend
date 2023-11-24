@@ -2,7 +2,7 @@
 
 import logo from "../../assets/images/IMG-20231011-WA0007-1.jpg"
 import {Link} from "react-router-dom"
-// import {GiHamburgerMenu} from "react-icons/gi"
+import {GiHamburgerMenu} from "react-icons/gi"
 
 const Header = () => {
   return (
@@ -23,7 +23,7 @@ const Header = () => {
           {" "}
           Service
         </Link>
-        <Link to={"Blog"} className=" text-[16px]">
+        <Link to={"/Blog"} className=" text-[16px]">
           {" "}
           Blog
         </Link>
@@ -31,7 +31,7 @@ const Header = () => {
       </nav>
 
       <div className="h-[30px] w-[30px] md:text-[#1239AC] md:h-[30px] md:m-5 md:text-[28px] xl:hidden lg:hidden sm:h-[30px] sm:[30px] sm:text-[28px] sm:text-[#1239AC]">
-        {/* <GiHamburgerMenu /> */}
+        <GiHamburgerMenu />
       </div>
 
       <Link to={"/Signup"}>

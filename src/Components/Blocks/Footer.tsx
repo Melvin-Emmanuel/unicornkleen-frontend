@@ -1,8 +1,8 @@
 import React from 'react'
 import Unicorn from "../../assets/images/IMG-20231011-WA0007-1.jpg"
-// import {BsFacebook} from "react-icons/bs"
-// import {BsInstagram} from "react-icons/bs"
-// import {BiLogoGmail} from "react-icons/bi"
+import {BsFacebook} from "react-icons/bs"
+import {BsInstagram} from "react-icons/bs"
+import {BiLogoGmail} from "react-icons/bi"
 
 const Footer:React.FC = () => {
   return (
@@ -16,9 +16,9 @@ const Footer:React.FC = () => {
                 <button className='text-[white] p-[5px] flex flex-col bg-[#FFB400] items-center rounded-[7px] h-[40px] w-[270px]'>Book Now</button>     
                 <br />
                 <div className=' flex gap-5 text-[30px] cursor-pointer text-[white]'>
-                    {/* <BsFacebook/>
+                    <BsFacebook/>
                     <BsInstagram/>
-                    < BiLogoGmail/> */}
+                    < BiLogoGmail/>
                 </div>
             </div>
             
