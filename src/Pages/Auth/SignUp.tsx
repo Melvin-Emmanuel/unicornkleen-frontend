@@ -1,7 +1,7 @@
 // import React, {useState} from 'react'
 // import { createUser} from "../../utils/AxiosCalls" 
 import pic from "../../assets/Cleaning tools.jpg"
- import { useNavigate } from 'react-router-dom'
+
 
 const SignUp :React.FC= () => {
 
