@@ -4,7 +4,7 @@ import pic from "../../assets/Cleaning tools.jpg"
  import { useNavigate } from 'react-router-dom'
 
 const SignUp :React.FC= () => {
-     const Navigate = useNavigate()
+
     // const [formData, setFormData] = useState ({
     //     UserName: "",
     //     Email: "",
@@ -24,7 +24,7 @@ const SignUp :React.FC= () => {
          try
          {
             //  const res = await createUser(formData)
-                Navigate("/signin");
+             
             //  console.log("this is for form", res)
          }catch(err) {
              return err
