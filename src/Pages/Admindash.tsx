@@ -463,7 +463,7 @@ export const Head = () => {
 import {
   ComposedChart,
   Line,
-  Area,
+ 
   Bar,
   XAxis,
   YAxis,
@@ -473,7 +473,7 @@ import {
   ResponsiveContainer,
 } from "recharts";
 import DashHome from "./DashHome";
-import { useState } from "react";
+
 
 const data = [
   {

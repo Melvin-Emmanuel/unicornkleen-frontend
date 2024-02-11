@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { Head, Side } from './Admindash'
 import AddProducts from './AddProducts'
 

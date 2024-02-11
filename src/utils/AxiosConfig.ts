@@ -14,5 +14,6 @@ const baseURL2 = "https://unicornklee.onrender.com/api/v1";
 const Instance = axios.create({
   baseURL: baseURL2,
 });
+console.log(baseUrl)
 
 export default Instance;

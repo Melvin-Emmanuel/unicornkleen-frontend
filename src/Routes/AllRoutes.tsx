@@ -9,7 +9,6 @@ import SignUp from "../Pages/Auth/SignUp"
 import About from "../Pages/About"
 import UserAppointments from "../Components/Commons/UserAppointments"
 import Admindash from "../Pages/Admindash"
-import AddProducts from "../Pages/AddProducts"
 import AddBlog from "../Pages/AddBlog"
 import Logout from "../Pages/Logout"
 
