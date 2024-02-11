@@ -1,31 +1,31 @@
-// import React, {useState} from 'react'
-// import { createUser} from "../../utils/AxiosCalls" 
+import React, {useState} from 'react'
+import { createUser} from "../../utils/AxiosCalls" 
 import pic from "../../assets/Cleaning tools.jpg"
 
 
 const SignUp :React.FC= () => {
 
-    // const [formData, setFormData] = useState ({
-    //     UserName: "",
-    //     Email: "",
-    //     Password: "",
-    // });
+    const [formData, setFormData] = useState ({
+        FullName: "",
+        Email: "",
+        Password: "",
+    });
 
-    // const onChangeForm = (e: React.ChangeEvent<HTMLInputElement>) => {
-    //     const {name, value} = e.target;
+    const onChangeForm = (e: React.ChangeEvent<HTMLInputElement>) => {
+        const {name, value} = e.target;
 
-    //     setFormData((prev) => ({
-    //         ...prev,
-    //         [name]: value,
-    //     }))
-    // }
+        setFormData((prev:any) => ({
+            ...prev,
+            [name]: value,
+        }))
+    }
 
      const RegisterUser = async () => {
          try
          {
-            //  const res = await createUser(formData)
+             const res = await createUser(formData)
              
-            //  console.log("this is for form", res)
+             console.log("this is for form", res)
          }catch(err) {
              return err
          }
@@ -59,7 +59,7 @@ const SignUp :React.FC= () => {
                         <div className=' p-5 marker:after:sm:pt-4'>
                             <input
                             required
-                            // onChange={onChangeForm}
+                            onChange={onChangeForm}
                             name='UserName'
                             className='h-[50px] w-[350px] outline rounded-[10px] p-3 sm:w-[200px] sm:p-2 sm:h-[40px] z'
                             placeholder='Username'
@@ -69,7 +69,7 @@ const SignUp :React.FC= () => {
                         <div className='p-5'>
                             <input
                             required
-                            // onChange={onChangeForm}
+                            onChange={onChangeForm}
                             name='Email'
                             className='h-[50px] w-[350px] outline rounded-[10px] p-3 sm:w-[200px] sm:p-2 sm:h-[40px]'
                             placeholder='Email'
@@ -79,7 +79,7 @@ const SignUp :React.FC= () => {
                         <div className='p-5'> 
                             <input
                             required
-                            // onChange={onChangeForm}
+                            onChange={onChangeForm}
                             name='Passsword'
                             className='h-[50px] w-[350px] outline rounded-[10px] p-3 sm:w-[200px] sm:p-2 sm:h-[40px] '
                             placeholder='Password'
